@@ -36,9 +36,6 @@ class ViewController: UIViewController {
             }
         }
 
-    
-
-
     func SwiftyRequest(url:String, completion: @escaping (_ completion : JSON) -> Void){
 
         Alamofire.request(url).responseJSON { response in
